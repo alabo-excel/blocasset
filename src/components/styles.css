@@ -1,0 +1,39 @@
+.hero{
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.select, .input, .button{
+    padding: 18px;
+    border: 1px solid #D1D5DB;
+    height: 60px;
+}
+.select{
+    background: transparent;
+}
+.input{
+    border-right: none;
+    border-left: none;
+}
+input:focus{
+    outline: none;
+}
+.button{
+    background-color: #111827;
+    color: #fff;
+    border:none;
+}
+@media (max-width:600px) {
+    .select, .input, .button{
+        padding: 5px;
+        /* border: 1px solid #D1D5DB; */
+        height: 50px;
+    }
+    .hero{
+        background-size: cover;
+    }
+}
+@media (max-width:800px) {
+    
+}

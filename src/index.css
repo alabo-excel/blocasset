@@ -14,6 +14,19 @@
 body {
     font-family: "EuclidSquare";
 }
-h1 {
+h1,
+h6 {
     font-family: "EuclidSquareBold";
+    overflow: hidden;
+}
+* {
+    overflow-x: hidden;
+}
+.lg\:w-1\/2{
+    overflow: hidden;
+}
+@media (max-width: 600px) {
+}
+.relative {
+    overflow: hidden;
 }

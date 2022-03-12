@@ -18,7 +18,7 @@ const Carousel = () => {
         }
     }
     return (
-        <div className="mt-10 ml-10">
+        <div className="mt-10 lg:ml-10 sm:ml-3">
             <OwlCarousel responsive={responsive} className='owl-theme' nav={false} margin={20} loop dots={false}>
                 <div className='item bg-black p-10 rounded-lg h-80'>
                     <h1 className="text-white text-2xl">DAOs</h1>

@@ -1,39 +1,65 @@
-.hero{
+.hero {
     background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
-.select, .input, .button{
+.select,
+.input,
+.button {
     padding: 18px;
-    border: 1px solid #D1D5DB;
+    border: 1px solid #d1d5db;
     height: 60px;
 }
-.select{
+.select {
     background: transparent;
 }
-.input{
+.input {
     border-right: none;
     border-left: none;
 }
-input:focus{
+input:focus {
     outline: none;
 }
-.button{
+.button {
     background-color: #111827;
     color: #fff;
-    border:none;
+    border: none;
 }
-@media (max-width:600px) {
-    .select, .input, .button{
+@media (max-width: 600px) {
+    .select,
+    .input,
+    .button {
         padding: 5px;
         /* border: 1px solid #D1D5DB; */
         height: 50px;
     }
-    .hero{
+    .hero {
         background-size: cover;
     }
 }
-@media (max-width:800px) {
-    
+@media (max-width: 800px) {
+}
+
+.pattern {
+    background-image: url("../assets/collection/pattern.png");
+    background-position: center;
+    height: 410px;
+}
+.assets {
+    background-image: url("../assets/collection/nft-assets.png");
+    background-position: center;
+    height: 410px;
+}
+@media (max-width: 950px) {
+    .pattern,
+    .assets {
+        height: 250px;
+    }
+}
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.w-3 {
+    width: 18px !important;
 }

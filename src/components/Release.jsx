@@ -26,7 +26,7 @@ const Release = () => {
     return (
         <>
             <div className="px-8 sm:px-3">
-                <div className="text-center mt-32 mb-20 relative">
+                <div className="text-center mt-20 mb-20 relative">
                     <h1 className="text-4xl">New Releases</h1>
                     <p className="text-ash text-sm my-4">Newly minted assets from top artists around the world</p>
                     <img className="absolute lg:top-6 lg:left-80 md:top-2 md:left-32 sm:-top-8" src={Line} alt="" />
